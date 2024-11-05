@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <form id="loginForm">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Login">
+  </form>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Mencegah form submit secara default
+
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      // Cek apakah username dan password adalah "admin"
+      if (username === 'admin' && password === 'admin') {
+        // Jika benar, arahkan ke index.html
+        window.location.href = 'index.php';
+      } else {
+        // Jika salah, tampilkan pesan kesalahan
+        alert('Username atau password salah!');
+      }
+    });
+  </script>
+</body>
+</html>

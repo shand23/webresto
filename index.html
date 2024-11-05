@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Noodles & Co. - Amazing & Delicious Food</title>
+    <meta name="title" content="Noodles & Co. - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Noodles & Co.</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span"> Noodles & Co. Daerah Istimewa Yogyakarta </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Buka : 11.00 s/d 22.00 WIB</span>
+        </div>
+
+        <a href="telp:+62-4501-2372" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+62-4501-2372</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">booking@noodlesnco.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="140"
+            height="50"
+            alt="Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="160" height="50" />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Beranda</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Tentang Kami</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Kontak Kami</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Kunjungi Kami</p>
+
+            <address class="body-4">
+              Noodles & Co. <br />
+              Daerah Istimewa Yogyakarta
+            </address>
+
+            <p class="body-4 navbar-text">Buka: 11.00 - 22.00 WIB</p>
+
+            <a href="mailto:booking@grilli.com" class="body-4 sidebar-link"
+              >booking@noodlesnco.com</a
+            >
+
+            <div class="separator">Permintaan Pemesanan</div>
+
+            <p class="contact-label"></p>
+
+            <a
+              href="tel:+88123123456"
+              class="body-1 contact-number hover-underline"
+            >
+              +62-4501-2372
+            </a>
+          </div>
+        </nav>
+
+
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/home1.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Tradisional & Otentik
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Kelezatan Nusantara <br />
+                Dengan Cita Rasa Indonesia
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Nikmati Bersama Keluarga Tercinta
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Menu</span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/home2.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Pengalaman yang Menyenangkan
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Rasakan Cita Rasa <br />
+                yang Berbeda
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Nikmati Bersama Keluarga Tercinta
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Menu</span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/home3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Kelezatan yang Luar Biasa
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Di setiap Rasa <br />
+                Ada Sebuah Cerita
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Nikmati Bersama Keluarga Tercinta
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Menu</span>
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="48"
+              height="48"
+              alt="booking icon"
+            />
+
+            <span class="label-2 text-center span">Reservasi</span>
+          </a>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Kaya Akan Rasa</p>
+
+            <h2 class="headline-1 section-title">Menyajikan yang Terbaik</h2>
+
+            <p class="section-text">
+              Menu terbaik di restoran kami menghadirkan kombinasi cita rasa
+              otentik yang menggugah selera dan mengasikkan para penikmat
+              makanan
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/makanan.jpeg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Sarapan</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Lihat Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/cemilan.jpeg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Cemilan</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Lihat Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/minuman.jpeg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Minuman</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Lihat Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./assets/images/shape-2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">
+                Tentang Kami
+              </p>
+
+              <h2 class="headline-1 section-title">
+                Noodles & Co: Mie Nusantara dan cita rasa dunia
+              </h2>
+
+              <p class="section-text">
+                Noodles & Co adalah rumah makan yang menawarkan menu tradisonal
+                dan rumahan. Kami berkomitmen menghadirkan cita rasa autentik
+                dari hidangan yang ditawarkan dengan menggunakan bahan-bahan
+                terbaik dan berkualitas dengan harga yang terjangkau. Noodles &
+                Co merupakan tempat yang ideal untuk berkumpul bersama keluarga,
+                teman ataupun kolega dengan suasana yang nyaman dan ramah sambil
+                menyantap hidangan lezat yang disajikan dengan pelayanan yang
+                prima.
+              </p>
+
+              <div class="contact-label">Pesan Sekarang!</div>
+
+              <a
+                href="tel:+62 123-456-789"
+                class="body-1 contact-number hover-underline"
+                >+62-4501-2372</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Selengkapnya</span>
+
+                <span class="text text-2" aria-hidden="true">Selengkapnya</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about us.jpg"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/About Us1.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </figure>
+
+            <img
+              src="./assets/images/shape-3.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Menu</p>
+
+            <h2 class="headline-1 section-title text-center">Spesial Menu</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-1.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Bakmie Godog</a>
+                      </h3>
+
+                      <!-- <span class="badge label-1">Seasonal</span> -->
+
+                      <span class="span title-2">15K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Mie, kaldu, daging, sayuran, telur, bumbu, rempah-rempah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-2.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Bakmie Goreng</a>
+                      </h3>
+
+                      <span class="span title-2">15K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Mie, daging, bumbu, telur, sayuran, minyak.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-3.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Nasi Goreng</a>
+                      </h3>
+
+                      <span class="span title-2">20K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Nasi, sayur, sosis, telur, saus, bumbu.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-4.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Magelangan</a>
+                      </h3>
+
+                      <!-- <span class="badge label-1">New</span> -->
+
+                      <span class="span title-2">20K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Nasi, mie, sayur, daging, telur, saus, bumbu.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-5.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Pisang Goreng</a>
+                      </h3>
+
+                      <span class="span title-2">10K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      pisang, tepung, minyak, meses, keju.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-6.jpeg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Roti Bakar</a>
+                      </h3>
+
+                      <span class="span title-2">10K</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Roti, mentegah, toping, kacang, meses, keju.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <p class="menu-text text-center">
+              Buka dari jam <span class="span">11.00 </span> s/d
+              <span class="span">22.00 WIB</span>
+            </p>
+
+            <a href="Menu.html" class="btn btn-primary">
+              <span class="text text-1">Selengkapnya</span>
+
+              <span class="text text-2" aria-hidden="true">Selengkapnya</span>
+            </a>
+
+            <img
+              src="./assets/images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Amazing teh tarik hijau Aceh dengan menu tradisional khas
+              Yogyakarta
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <div class="profile">
+              <img
+                src="./assets/images/logo.png"
+                width="140"
+                height="100"
+                loading="lazy"
+                alt="Sam Jhonson"
+                class="img"
+              />
+
+              <p class="label-2 profile-name">Noodles & Co</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #RESERVATION
+      -->
+      
+      <section class="reservation">
+        <div class="container">
+          <div class="form reservation-form bg-black-10">
+            <form action="" class="form-left">
+              <!-- Elemen lainnya dalam form -->
+      
+              <a href="create.php" class="btn btn-secondary">
+                <span class="text text-1">Pesan Sekarang</span>
+                <span class="text text-2" aria-hidden="true">Pesan Sekarang</span>
+              </a>
+            </form>
+      
+              <div
+                class="form-right text-center"
+                style="
+                  background-image: url('./assets/images/form-pattern.png');
+                "
+              >
+                <h2 class="headline-1 text-center">Kontak Kami</h2>
+
+                <p class="contact-label">Permintaan Pemesanan</p>
+
+                <a
+                  href="telp:+62-4501-2372"
+                  class="body-1 contact-number hover-underline"
+                  >+62-4501-2372</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Lokasi</p>
+
+                <address class="body-4">
+                  Noodles & Co. <br />
+                  Daerah Istimewa Yogyakarta, ID 55291
+                </address>
+
+                <p class="contact-label">Makan Siang</p>
+
+                <p class="body-4">
+                  Senin s/d Minggu <br />
+                  11.00 - 16.00 WIB
+                </p>
+
+                <p class="contact-label">Makan Malam</p>
+
+                <p class="body-4">
+                  Senin s/d Minggu <br />
+                  16.01 - 22.00 WIB
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Mengapa Kami</p>
+
+            <h2 class="headline-1 section-title">Kelebihan</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Kaya Rasa</h3>
+
+                  <p class="label-1 card-text">
+                    Dengan aneka ragam hidangan khas nusantara.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Kualitas Terbaik</h3>
+
+                  <p class="label-1 card-text">
+                    Menyajikan hidangan dengan kualitas terbaik.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Juru Masak Handal</h3>
+
+                  <p class="label-1 card-text">
+                    Dengan juru masak yang berpengalaman.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Event & Party</h3>
+
+                  <p class="label-1 card-text">
+                    Dengan suasana yang nyaman dan menenangkan.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #EVENT
+      -->
+
+        <section class="section event bg-black-10" aria-label="event">
+          <div class="container">
+            <p class="section-subtitle label-2 text-center">Update Terbaru</p>
+
+            <h2 class="section-title headline-1 text-center">
+              Kegiatan yang akan datang
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event1.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2024-05-05"
+                      >05/05/2024</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">Rasa</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Rasakan kenikmatan yang tiada tara.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event2.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2024-05-07"
+                      >07/05/2024</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      Makanan Sehat
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Rasakan kenikmatan yang tiada tara.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event3.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2024-05-11"
+                      >11/05/2024</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">Resep</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Rasakan kenikmatan yang tiada tara.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Blog Kami</span>
+
+              <span class="text text-2" aria-hidden="true">Blog Kami</span>
+            </a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Noodles & Co. Daerah Istimewa Yogyakarta
+            </address>
+
+            <a href="mailto:booking@grilli.com" class="body-4 contact-link"
+              >booking@noodlesnco.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Permintaan Pemesanan : +62-4501-2372</a
+            >
+
+            <p class="body-4">Buka : 11:00 - 22:00 WIB</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Dapatkan Penawaran Terbaik</p>
+
+            <p class="label-1">
+              Ikuti kami & dapatkan <span class="span">diskon 25%</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Ikuti</span>
+
+                <span class="text text-2" aria-hidden="true">Ikuti</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Beranda</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Kontak Kami</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Kontak</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2022 Grilli. All Rights Reserved | Crafted by
+            <a
+              href="https://github.com/codewithsadee"
+              target="_blank"
+              class="link"
+              >codewithsadee</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

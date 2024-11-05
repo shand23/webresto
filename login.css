@@ -1,0 +1,80 @@
+
+/* login-register.css */
+
+body {
+    /* background-image: url(img/home.jpg); */
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px) saturate(100%);
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      width: 100%;
+      margin: 20px auto;
+      padding: 10px;
+    }
+  }
+  
+  
+  label {
+    display: block;
+    /* margin-bottom: 10px; */
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  
+  input[type="submit"]:hover {
+    background-color: #ca1414;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+
+ 
